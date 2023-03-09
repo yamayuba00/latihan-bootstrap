@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css.css">
+
+    <title>Toko Online</title>
+  </head>
+  <body>
+    <!--Awal navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="" width="50" height="50" class="me-2">
+                Bazma <strong>Store</strong>
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+                <form class="d-flex ms-auto my-4 my-lg-0">
+                    <input class="form-control me-2" type="search" placeholder="Cari barang anda!!" aria-label="search">
+                    <button class="btn btn-light" type="submit">Cari</button>
+                  </form>
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="keranjang.html">Keranjang</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Bantuan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Daftar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Masuk</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--Akhir navbar-->
+
+
+      <!--awal caraosel-->
+    <div class="container">
+      <div id="carouselExampleIndicators" class="carousel slide mt-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/img1.jpg" class="d-block img-fluid" alt="Gambar 1">
+          </div>
+          <div class="carousel-item">
+            <img src="img/img2.jpg" class="d-block img-fluid" alt="Gambar 2">
+          </div>
+          <div class="carousel-item">
+            <img src="img/img3.jpg" class="d-block img-fluid" alt="Gambar 3">
+          </div>
+          <div class="carousel-item">
+            <img src="img/img4.jpg" class="d-block img-fluid" alt="Gambar 4">
+          </div>
+          <div class="carousel-item">
+            <img src="img/img5.jpg" class="d-block img-fluid" alt="Gambar 5">
+          </div>
+          <div class="carousel-item">
+            <img src="img/img6.jpg" class="d-block img-fluid" alt="Gambar 6">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+      <!--akhir caraosel-->
+
+      <!--awal kategori-->
+      <div class="container mt-5">
+       <div class="Judul-kategori" style="background-color: #fff; padding: 5px 10px;">
+         <h5 class="text-center" style="margin-top: 5px;">KATEGORI</div></h5></div>
+        </div>
+        <div class="row text-center  row-container mt-2">
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <div class="menu kategori">
+                    <a href="#img"><img src="img/baju.png" class="img-categori  mt-3"></a>
+                    <p class="mt-2">Baju</p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <div class="menu kategori">
+                    <a href="#img"><img src="img/celana.png" class="img-categori  mt-3"></a>
+                    <p class="mt-2">celana</p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <div class="menu kategori">
+                    <a href="#img"><img src="img/elektronik.png" class="img-categori  mt-3"></a>
+                    <p class="mt-2">elektronik</p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <div class="menu kategori">
+                    <a href="#img"><img src="img/fotografi.png" class="img-categori  mt-3"></a>
+                    <p class="mt-2">fotografi</p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <div class="menu kategori">
+                    <a href="#img"><img src="img/hp.png" class="img-categori  mt-3"></a>
+                    <p class="mt-2">Handphone</p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <div class="menu kategori">
+                    <a href="#img"><img src="img/jamtangan.png" class="img-categori  mt-3"></a>
+                    <p class="mt-2">jam tangan</p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <div class="menu kategori">
+                    <a href="#img"><img src="img/kecantikan.png" class="img-categori  mt-3"></a>
+                    <p class="mt-2">kecantikan</p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <div class="menu kategori">
+                    <a href="#img"><img src="img/kesehatan.png" class="img-categori  mt-3"></a>
+                    <p class="mt-2">kesehatan</p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <div class="menu kategori">
+                    <a href="#img"><img src="img/laptop.png" class="img-categori  mt-3"></a>
+                    <p class="mt-2">laptop</p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <div class="menu kategori">
+                    <a href="#img"><img src="img/otomotif.png" class="img-categori  mt-3"></a>
+                    <p class="mt-2">otomotif</p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <div class="menu kategori">
+                    <a href="#img"><img src="img/sepatu.png" class="img-categori  mt-3"></a>
+                    <p class="mt-2">sepatu</p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <div class="menu kategori">
+                    <a href="#img"><img src="img/tas.png" class="img-categori  mt-3"></a>
+                    <p class="mt-2">Tas</p>
+                </div>
+            </div>
+        </div>
+
+      <!--akhir kategori-->
+
+      <!--awal produk-->
+      <div class="container mt-5">
+        <div class="Judul-produk" style="background-color: #fff; padding: 5px 10px;">
+            <h5 class="text-center" style="margin-top: 5px;"><b>PRODUK</b></div></h5></div>
+           </div>
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-4 col-6">
+                <div class="card text-center">
+                    <img src="img/produk1.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title">kaos polos</h6>
+                      <div class="icon-bintang">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      <p class="card-text mt-2">Rp. 360.000</p>
+                      <a href="singleproduk.html" class="btn btn-dark d-grid">Beli</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-6">
+                <div class="card text-center">
+                    <img src="img/produk2.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title">kaos jalan keren</h6>
+                      <div class="icon-bintang">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      <p class="card-text mt-2">Rp. 360.000</p>
+                      <a href="singleproduk02.html" class="btn btn-dark d-grid">Beli</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-6">
+                <div class="card text-center">
+                    <img src="img/produk3.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title">Kaos santai</h6>
+                      <div class="icon-bintang">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      <p class="card-text mt-2">Rp. 360.000</p>
+                      <a href="singleproduk.html" class="btn btn-dark d-grid">Beli</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-6">
+                <div class="card text-center">
+                    <img src="img/produk4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title">kaos ori</h6>
+                      <div class="icon-bintang">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      <p class="card-text mt-2">Rp. 360.000</p>
+                      <a href="singleproduk02.html" class="btn btn-dark d-grid">Beli</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-6">
+                <div class="card text-center">
+                    <img src="img/produk5.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title">kaos plus kalung</h6>
+                      <div class="icon-bintang">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      <p class="card-text mt-2"><b>Rp. 360.000</b></p>
+                      <a href="singleproduk.html" class="btn btn-dark d-grid">Beli</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-6">
+                <div class="card text-center">
+                    <img src="img/produk6.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title">baju kaos seleb</h6>
+                      <div class="icon-bintang">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      <p class="card-text mt-2"><b>Rp. 360.000</b></p>
+                      <a href="singleproduk02.html" class="btn btn-dark d-grid">Beli</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-6">
+                <div class="card text-center">
+                    <img src="img/produk7.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title">baju untuk bergaya</h6>
+                      <div class="icon-bintang">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      <p class="card-text mt-2"><b>Rp. 360.000</b></p>
+                      <a href="singleproduk.html" class="btn btn-dark d-grid">Beli</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-6">
+                <div class="card text-center">
+                    <img src="img/produk8.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title">baju bahan katun</h6>
+                      <div class="icon-bintang">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      <p class="card-text mt-2"><b>Rp. 360.000</b></p>
+                      <a href="singleproduk02.html" class="btn btn-dark d-grid">Beli</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-6">
+                <div class="card text-center">
+                    <img src="img/produk9.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title">baju bahan dingin</h6>
+                      <div class="icon-bintang">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      <p class="card-text mt-2"><b>Rp. 360.000</b></p>
+                      <a href="singleproduk.html" class="btn btn-dark d-grid">Beli</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+      </div>
+      <!--akhir produk-->
+
+      <!--awal footer-->
+      <footer class="bg-light p-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                  <a href="#" style="text-decoration:none">
+                    <img src="img/logo.png" style="width: 40px;">
+                  </a>
+                  <span class="ps-1">copyright  @2023 | Created by wahyuda <a href="https://www.youtube.com/@whybazma01/videos" 
+                    class="text-decoration-none text-dark fw-bold" >
+                  ww_ahyuda 
+                </a></span>
+                </div>
+
+                <div class="col-md-6 text-md-end  text-center">
+                    <a href="#" style="text-decoration:none">
+                      <img src="img/facebook.png" class="ms-2" style="width: 32px;">
+                    </a>
+                  </a></span>
+                  <a href="#" style="text-decoration:none">
+                    <img src="img/instagram.png" class="ms-2" style="width: 32px;">
+                  </a>
+                </a></span>
+                <a href="#" style="text-decoration:none">
+                    <img src="img/twitter.png" class="ms-2" style="width: 32px;">
+                  </a>
+                </a></span>
+                <a href="#" style="text-decoration:none">
+                    <img src="img/linkedin.png" class="ms-2" style="width: 32px;">
+                  </a>
+                </a></span>
+                  </div>
+            </div>
+        </div> 
+      </footer>
+      <!--awal footer-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
