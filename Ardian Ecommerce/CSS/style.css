@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&display=swap');
+
+body {
+    background-color: rgb(241, 241, 241);
+}
+
+.style {
+    font-family: 'montserrat', sans-serif;
+    text-align: justify;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.text {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.py {
+    padding-left: 120px;
+    padding-right: 110px;
+}
+
+.cart {
+    color: white;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+/* search */
+
+.search-box {
+    background-color: grey;
+    height: 40px;
+    padding-top: 6px;
+    padding-bottom: 43px;
+    padding-left: 15px;
+    padding-right: 5px;
+    border-radius: 60px;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.white {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+a {
+    color: grey;
+}
+
+/* search */
+
+.carousel {
+    margin-top: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.container-wh {
+    width: 1340px;
+    height: 270px;
+    margin-top: 20px;
+    padding-left: 120px;
+    padding-right: 110px;
+}
+
+.row-1 {
+    padding-left: 40px;
+}
+
+.card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.Featured {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card {
+    border-radius: 10px;
+    margin-bottom: 25px;
+    border: 0px;
+    box-shadow: 2px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Contact Us */
+
+.card-1 {
+    background-color: white;
+    border-radius: 15px;
+    height: 500px;
+}
+
+.height {
+    height: 200px;
+}
+
+.card-2 {
+    background-color: white;
+    border-radius: 15px;
+    height: 500px;
+}
+
+/* Contact Us */
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+}
+
+.ARDN {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.line {
+    font-size: 80px;
+}
+
+.pd-bt {
+    margin-bottom: 80px;
+}
+
+.width {
+    width: 1500px;
+    margin-left: 110px;
+    margin-right: 120px;
+}
+
+.bor-rad {
+    border-radius: 10px;
+}
