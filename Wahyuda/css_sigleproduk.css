@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100&display=swap');
+
+body {
+    background-color: #EAEAEA;
+    font-family: 'poppins', sans-serif bold;
+    color: #2d2d2d;
+    font-size: 14px;
+}
+/*awal navbar*/
+.form-control {
+    font-size: 14px;
+}
+
+@media screen and (min-width: 994px;) {
+    .form-control{
+        width: 350px;    
+}
+}
+@media screen and (min-width: 994px){
+    .navbar-nav{
+        text-alingn: center; 
+}    
+}
+/*akhirnavbar*/
+
+/*awal gambar produk*/
+.row-produk{
+    background-color: #fff;
+    margin: 0;
+    padding: 5px;
+    padding-top: 16px;
+}
+
+/*akhir gambar produk*/
+
+/*awal garis nama*/
+.garis-nama {
+    border-bottom: 2px solid #2d2d2d;
+    margin-top: 10px;
+    margin-bottom: 25px;
+} 
+
+/*akhir garis nama*/
+
+/*awal btn custom*/
+.btn-custom {
+    padding: 10px;
+    font-size: 14px;
+}
+
+/*akhir btn custom*/
