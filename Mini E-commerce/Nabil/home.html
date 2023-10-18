@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SMK TI BAZMA - Bootstrap V5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Quicksand&display=swap');
+
+        #carouselExampleDark{
+          padding: 20px 117px;
+        }
+
+        .navbar-brand{
+          margin-left: 103px;
+        }
+
+        .d-flex{
+          margin-right: 97px;
+        }
+
+        .nav-link{
+            font-family: quicksand, sans-serif;
+        }
+
+        a{
+          text-decoration: none;
+          color: black;
+        }
+    </style>
+</head>
+<body>
+  <div class="py-1 text-white bg-dark">
+    <div class="d-flex justify-content-end bd-highlight container">
+      <div class="p-2 bd-highlight">
+        <a class="nav-link" href="#">Gift Card</a>
+      </div>
+      <div class="p-2 bd-highlight">
+        <a class="nav-link" href="#">Track Order</a>
+      </div>
+      <div class="p-2 bd-highlight">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </div>
+    </div>
+  </div>
+</nav>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
+    <div class="container-fluid"> 
+      <a class="navbar-brand" href="#" style="font-size: 30px; font-weight: bold;">BELI</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll ms-auto" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="shop.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Beli sesuatu" aria-label="Search">
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleDark" class="carousel carousel-dark slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="jpg/carousel.png" class="d-block w-100" alt="..." style="border-radius: 5px;">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="jpg/carousel-2.png" class="d-block w-100" alt="..." style="border-radius: 5px;">
+      </div>
+      <div class="carousel-item">
+        <img src="jpg/carousel-3.png" class="d-block w-100" alt="..." style="border-radius: 5px;">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="card" style="width: 18rem margin-right: 10px;">
+              <div class="card-header">
+                Categories
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">T-shirt</li>
+                <li class="list-group-item">Shirt</li>
+                <li class="list-group-item">Jackets</li>
+                <li class="list-group-item">Pants</li>
+                <li class="list-group-item">Shoes</li>
+                <li class="list-group-item">Slippers</li>
+                <li class="list-group-item">Underwear</li>
+                <li class="list-group-item">Accesories</li>
+                <li class="list-group-item">Merchandise</li>
+                <li class="list-group-item">Men</li>
+                <li class="list-group-item">Women</li>
+                <li class="list-group-item">Kids</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-9">
+            <div class="card">
+              <div class="card-header">
+                Best Selling Products
+              </div>
+              <div class="card-body">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <a href="produk-detail.html">
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="jpg/t-shirt.png" class="card-img-top" alt="..." >
+                      <div class="card-body">
+                        <h6 class="card-title" style="text-align: center;">T-Shirt Project Summer Black</h6>
+                      </div>
+                    </div>
+                  </div>
+                  </a>
+                  <a href="produk-detail.html">
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="jpg/chino.png" class="card-img-top" alt="..." >
+                      <div class="card-body">
+                        <h6 class="card-title" style="text-align: center;">Chino Pant Light Grey</h6>
+                      </div>
+                    </div>
+                  </div>
+                  </a>
+                  <a href="produk-detail.html">
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="jpg/longsleeve.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h6 class="card-title" style="text-align: center;">Longsleeve Spygate Grey</h6>
+                      </div>
+                    </div>
+                  </div>
+                  </a>
+                  <a href="produk-detail.html">
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="jpg/coach-jacket.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h6 class="card-title" style="text-align: center;">Coach Jacket Nippon Nonatsu Navy</h6>
+                      </div>
+                    </div>
+                  </div>
+                  </a>
+                  <a href="produk-detail.html">
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="jpg/flannel.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h6 class="card-title" style="text-align: center;">Flannel Lafia Navy</h6>
+                      </div>
+                    </div>
+                  </div>
+                  </a>
+                  <a href="produk-detail.html">
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="jpg/hoodie.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h6 class="card-title" style="text-align: center;">Hoodie Elvin Black</h6>
+                      </div>
+                    </div>
+                  </div>
+                  </a>
+                  <a href="produk-detail.html">
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="jpg/tote-bag.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h6 class="card-title" style="text-align: center;">Tote Bag Johanna</h6>
+                      </div>
+                    </div>
+                  </div>
+                  </a>
+                  <a href="produk-detail.html">
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="jpg/watch.png" class="card-img-top" alt="..." style="padding: 0 20px;">
+                      <div class="card-body">
+                        <h6 class="card-title" style="text-align: center;">Thunder Watch Black</h6>
+                      </div>
+                    </div>
+                  </div>
+                  </a>
+                  <a href="produk-detail.html">
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="jpg/shoes.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h6 class="card-title" style="text-align: center;">Sport Sneakers Running Shoes</h6>
+                      </div>
+                    </div>
+                  </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="bg-dark" style="margin-top: 50px;">
+            <p style="color: white; padding: 15px 0;" align="center">
+                &copy; 2023 Copyright: Mini E-commerce SMK TI BAZMA
+            </p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+</body>
+</html>
